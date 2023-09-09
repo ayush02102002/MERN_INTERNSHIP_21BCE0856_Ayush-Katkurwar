@@ -1,0 +1,26 @@
+table{
+    margin: auto;
+    width: 80%;
+    border: none;
+    font-size: large;
+    border-collapse: collapse;
+}
+.rowodd{
+    height: 40px;
+}
+
+.roweven{
+    height: 40px;
+}
+
+th{
+    background-color: rgb(76, 151, 76);
+    color: white;
+    height: 40px;
+    text-align: start;
+}
+th,td{
+    border: 1px solid rgb(223, 223, 223);
+    padding: 8px;
+}
+tr:nth-child(even){background-color: #f2f2f2;}

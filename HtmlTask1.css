@@ -1,0 +1,17 @@
+table{
+    
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 70%;
+    font-weight: 600;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+th,td{
+    background-color: rgb(194, 194, 241);
+    padding: 5px;
+}
+
+th{
+    text-align: center;
+}

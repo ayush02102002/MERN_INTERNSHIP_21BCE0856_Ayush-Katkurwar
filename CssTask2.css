@@ -1,0 +1,49 @@
+*{
+    text-decoration: none;
+}
+.outer{
+    cursor: pointer;
+    display: block;
+    margin: auto;  
+    width: 200px;
+    font-size: larger;
+    padding: 4px;
+    border: 1px solid black;
+
+}
+
+.l1{
+    text-decoration: none;
+    text-align: center;
+    padding: 6px;
+    background-color: rgb(172, 172, 212);
+}
+
+#a1{
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+}
+
+.l1:hover{
+    background-color: yellow;
+}
+
+a:hover{
+    color: white;
+}
+
+.hori{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: larger;
+    padding: 8px;
+    border: 1px solid black;
+    height: 30px;
+    width: 305px;
+    margin: auto;
+}

@@ -1,0 +1,52 @@
+* {
+    margin: 0
+  }
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    background-color: #6d0561;
+    color: white;
+    width: 50%;
+    margin: auto;
+}
+
+.regform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    background-color: #37013a;
+    padding: 20px;
+  }
+
+  .regform input,
+  .regform select,
+  .regform textarea {
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  
+  .regform input:focus,
+  .regform textarea:focus {
+    box-shadow: 3px 3px 10px rgb(228, 228, 228), -3px -3px 10px rgb(224, 224, 224);
+  }
+  
+  button {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 20px;
+    color: rgb(44, 44, 44);
+    background-color: #ffffff;
+    border-radius: 7px;
+    font-weight: 700;
+  }
+  
+  button:hover {
+    box-shadow: 3px 3px 6px rgb(255, 214, 176);
+  }
